@@ -3,27 +3,97 @@
   <head>
     <!-- Meta Information -->
     <title>Tweeter - Home Page</title>
-
+    
     <!-- External CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css" />
-
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Source+Sans+Pro:wght@300;600;700&display=swap" rel="stylesheet"> 
     <!-- App CSS -->
     <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
-
+    <link rel="stylesheet" href="/styles/nav.css " type="text/css" />
+    <link rel="stylesheet" href="/styles/header.css " type="text/css" />
+    <link rel="stylesheet" href="/styles/new_tweet.css " type="text/css" />
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
+    <script src="scripts/composer-char-counter.js"></script>
   </head>
 
   <body>
     <!-- Top nav bar (fixed) -->
     <nav>
       <span>tweeter</span>
+      <div class="right">
+        <p class="nav_text"><span class="span_text">Write</span> a new tweet</p>
+        <img src="images/arrow.png" alt="" class="nav_img">
+      </div>
     </nav>
+    <section class="page">
+    <header>
+  
+        <div lass="header_img">
+          <img  src="/images/profile-hex.png"> 
+      </div>
+      <br>
+      <div>
+          <h2>  <span class="header_name">Your</span>  Name</h2>
+      </div>
+    
+    </header>
 
     <!-- Page-specific (main) content here -->
-    <main class="container"></main>
+    <main>
+      <div class="container">
+        <section class="new-tweet">
+          <form id="compose" action="/tweets/" method="POST">
+            <!-- <p class="text_header">"What are you humming about?"</p> -->
+            <textarea id="new-tweet-area" placeholder="What are you humming about?" name ="text"></textarea>
+            <span>
+              <input class="submit_button" type="submit" value="Tweet" id="load-more-posts">
+              <span class="counter">140</span>
+            </span>
+          </form>
+        </section>
+
+        <section  id="tweets-container">
+          <div>
+
+          </div>
+          <!-- <article class="tweet">
+            <div class="name">
+              <div class="photo">
+                <img class="img_profile" src="/images/profile.png" alt="bird" />
+                <h1 class="full_name">Bill Fields</h1>
+              </div>
+              <h3 class="short_name">@MrFields</h3>
+            </div>
+            <div class="tweet-body">
+              <p class="tweet_text">
+                little tweet here
+              </p>
+            </div>
+            <footer class="tweet_footer">
+              <p>
+              10 days ago
+              </p>
+              <span>
+                <div class="icon" ></div>
+                <div class="icon" ></div>
+                <div class="icon" ></div>
+              </span>
+            </footer>
+          </article> -->
+        <!-- </section> -->
+
+          </section>
+       
+      </div>
+      
+     </main>
+     </section>
+  
+   
   </body>
 </html>
