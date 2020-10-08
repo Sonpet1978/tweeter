@@ -8,6 +8,7 @@ $(document).ready(function() {
         }
     });
     
+    
     $(characterCount).keyup(updateCount);
     $(characterCount).mouseup(updateCount);
     $(characterCount).mouseout(updateCount);
