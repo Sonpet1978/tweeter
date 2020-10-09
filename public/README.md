@@ -15,6 +15,8 @@ Dependencies
 Express
 Node 5.10.x or above
 
+MY IMAGES
+
 ## Images
 Desktop version
 !["DESKTOP"](https://github.com/Sonpet1978/tweeter/blob/master/Desktop_tweeter_sonya.png?raw=true)
