@@ -15,3 +15,15 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+
+MY IMAGES :
+DESKTOP APP :
+
+![alt text](https://github.com/Sonpet1978/tweeter/blob/master/Desktop_tweeter_sonya.png?raw=true)
+
+
+TABLET :
+
+![alt text](https://github.com/Sonpet1978/tweeter/blob/master/Tablet_tweeter_sonya.png?raw=true)
+
