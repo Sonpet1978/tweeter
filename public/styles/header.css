@@ -1,7 +1,8 @@
 header {
-    margin-top: 110px;
+    margin-top: 150px;
+    margin-left: 2%;
     height: 400px;
-    width: 100%;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,6 +28,7 @@ h2 {
 
 
 }
+
 @media (max-width:1200px){
     header {
        height: 300px;
@@ -50,5 +52,15 @@ h2 {
     header img{
         width: 220px;
     }
-  
 }
+@media (max-width: 420px) {
+    header {
+        margin-top: 110px;
+        width: 100%;
+        margin-left: 0px;
+    } 
+    header img{
+        width: 160px;
+    }
+
+  }

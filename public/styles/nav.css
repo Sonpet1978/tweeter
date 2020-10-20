@@ -17,15 +17,12 @@ nav {
     }
     @keyframes blink {
         0% {
-            /* opacity: 1; */
             transform: translateY(0);
         }
         50% {
-            /* opacity: 0; */
             transform: translateY(-10px);
         }
         100% {
-            /* opacity: 1; */
             transform: translateY(0);
         }
     }
@@ -54,3 +51,16 @@ nav {
         color: white;
        
     }
+    
+    @media only screen and (max-width: 420px) { 
+        nav {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    span {
+        margin-top: 10px;
+        font-size: 20px;
+      }
+      }
+    
