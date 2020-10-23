@@ -72,6 +72,7 @@ $(document).ready(function() {
           $("#compose").prepend($("<div>").addClass("tweet-error").text("The tweet is too long!").fadeIn(200).fadeOut(4500)); //in case of an error a relevant message appeares before the form and fades with time delay
           return;
         }
+        
         if (!input.val()) {
           $("#compose").prepend($("<div>").addClass("tweet-error").text("No text detected!").fadeIn(200).fadeOut(5000));
           return;
