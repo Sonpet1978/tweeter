@@ -28,7 +28,7 @@ $(document).ready(function() {
   
   }
   
-  
+
   
   const escape =  function(str) {                        //takes in the input from the textarea and converts it to the string inside of a div (used in createTweetElement line 56)
       let div = document.createElement('div');
@@ -106,7 +106,7 @@ $(document).ready(function() {
       });
     }
     
-    loadTweets();
+    loadTweets(); // RENDERING TWEET ON FORM LOAD
   
    
   function renderTweets(tweets) {       //(4)receives data from server 
