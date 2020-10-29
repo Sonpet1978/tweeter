@@ -103,7 +103,7 @@ $(document).ready(function() {
              renderTweets(data);    //calls next function (line 115)
           }
       });
-      loadTweets();
+  
   };
   
    
